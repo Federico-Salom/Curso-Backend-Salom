@@ -24,9 +24,9 @@ class ProductManager{
             nuevoProducto.id=1
         }
         else
-        nuevoProducto.id=this.Products.length+1
+        nuevoProducto.id=this.Products[this.Products.length-1].id + 1
 
-        this.Products.push(nuevoProducto)
+        this.Products.push(nuevoProducto)  
     }
 
     getProducts(){
