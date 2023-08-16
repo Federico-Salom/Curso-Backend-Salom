@@ -1,0 +1,20 @@
+[
+	{
+		"title": "Teclado",
+		"description": "Mecanico",
+		"price": 250,
+		"thumbnail": "img",
+		"code": 53425,
+		"stock": 20,
+		"id": 2
+	},
+	{
+		"title": "Gabinete",
+		"description": "Tamaño compatible ATX o menos",
+		"price": 9500,
+		"thumbnail": "img",
+		"code": 32453,
+		"stock": 10,
+		"id": 3
+	}
+]
