@@ -6,15 +6,24 @@
 		"thumbnail": "img",
 		"code": 53425,
 		"stock": 20,
+		"id": 1
+	},
+	{
+		"title": "Mouse",
+		"description": "Óptico",
+		"price": 150,
+		"thumbnail": "img",
+		"code": 12345,
+		"stock": 15,
 		"id": 2
 	},
 	{
-		"title": "Gabinete",
-		"description": "Tamaño compatible ATX o menos",
-		"price": 9500,
+		"title": "Monitor",
+		"description": "Full HD",
+		"price": 1000,
 		"thumbnail": "img",
-		"code": 32453,
-		"stock": 10,
+		"code": 67890,
+		"stock": 5,
 		"id": 3
 	}
 ]
