@@ -21,7 +21,9 @@ router.post("/", (req, res) => {
     const carritos = JSON.parse(data);
     carritos.push(newCart);
     fs.writeFileSync(rutaCarritos, JSON.stringify(carritos, null, "\t"));
-    res.status(201).json({ message: "Carrito creado correctamente", cart: newCart });
+    res
+      .status(201)
+      .json({ message: "Carrito creado correctamente", cart: newCart });
   } catch (error) {
     res.status(500).json({ error: "Error al crear el carrito" });
   }
@@ -43,7 +45,9 @@ router.get("/:cid", (req, res) => {
 
     res.status(200).json(carrito.products);
   } catch (error) {
-    res.status(500).json({ error: "Error al obtener los productos del carrito" });
+    res
+      .status(500)
+      .json({ error: "Error al obtener los productos del carrito" });
   }
 });
 
@@ -63,7 +67,9 @@ router.post("/:cid/product/:pid", (req, res) => {
       return;
     }
 
-    const existingProduct = carrito.products.find((product) => product.product === productId);
+    const existingProduct = carrito.products.find(
+      (product) => product.product === productId
+    );
 
     if (existingProduct) {
       existingProduct.quantity += quantity;
@@ -72,7 +78,9 @@ router.post("/:cid/product/:pid", (req, res) => {
     }
 
     fs.writeFileSync(rutaCarritos, JSON.stringify(carritos, null, "\t"));
-    res.status(201).json({ message: "Producto agregado al carrito correctamente" });
+    res
+      .status(201)
+      .json({ message: "Producto agregado al carrito correctamente" });
   } catch (error) {
     res.status(500).json({ error: "Error al agregar el producto al carrito" });
   }

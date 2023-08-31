@@ -21,7 +21,9 @@ class ProductManager {
   }
 
   updateProduct(id, updatedProduct) {
-    const indexToUpdate = this.Productos.findIndex((product) => product.id === id);
+    const indexToUpdate = this.Productos.findIndex(
+      (product) => product.id === id
+    );
     if (indexToUpdate === -1) {
       throw new Error(`No se encontró ningún producto con el ID ${id}`);
     }
@@ -36,7 +38,9 @@ class ProductManager {
   }
 
   eliminarProducto(id) {
-    const indexToDelete = this.Productos.findIndex((product) => product.id === id);
+    const indexToDelete = this.Productos.findIndex(
+      (product) => product.id === id
+    );
     if (indexToDelete === -1) {
       throw new Error(`Error: No se encontró ningún producto con el ID ${id}.`);
     }
@@ -47,16 +51,23 @@ class ProductManager {
 
   addProduct(product) {
     const productosIguales = this.Productos.some(
-      (existingProduct) => existingProduct.title === product.title || existingProduct.code === product.code
+      (existingProduct) =>
+        existingProduct.title === product.title ||
+        existingProduct.code === product.code
     );
 
     if (productosIguales) {
-      throw new Error("Error: Existe un producto con el título o código iguales.");
+      throw new Error(
+        "Error: Existe un producto con el título o código iguales."
+      );
     }
 
     const newProduct = {
       ...product,
-      id: this.Productos.length === 0 ? 1 : this.Productos[this.Productos.length - 1].id + 1,
+      id:
+        this.Productos.length === 0
+          ? 1
+          : this.Productos[this.Productos.length - 1].id + 1,
     };
 
     this.Productos.push(newProduct);

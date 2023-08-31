@@ -31,7 +31,8 @@ app.get("/products", (req, res) => {
 });
 
 app.post("/", (req, res) => {
-  const { title, description, code, price, stock, category, thumbnails } = req.body;
+  const { title, description, code, price, stock, category, thumbnails } =
+    req.body;
   const newProduct = {
     title,
     description,
@@ -60,7 +61,7 @@ app.get("/products/:pid", (req, res) => {
   }
 });
 
-app.delete('/:pid', (req, res) => {
+app.delete("/:pid", (req, res) => {
   const productId = parseInt(req.params.pid);
   try {
     productManager.eliminarProducto(productId);

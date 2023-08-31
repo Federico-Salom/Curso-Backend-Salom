@@ -1,56 +1,45 @@
 [
-	{
-		"title": "Auriculares Inalámbricos",
-		"description": "Auriculares Bluetooth con cancelación de ruido",
-		"code": "54321",
-		"price": 129.99,
-		"status": true,
-		"stock": 50,
-		"category": "Audio",
-		"thumbnails": [
-			"auriculares.jpg"
-		],
-		"id": 5
-	},
-	{
-		"title": "Smartphone",
-		"description": "Teléfono inteligente de última generación",
-		"code": "98765",
-		"price": 599.99,
-		"status": true,
-		"stock": 100,
-		"category": "Electrónica",
-		"thumbnails": [
-			"smartphone_front.jpg",
-			"smartphone_back.jpg"
-		],
-		"id": 6
-	},
-	{
-		"title": "Laptop",
-		"description": "Laptop ultradelgada con pantalla táctil",
-		"code": "24680",
-		"price": 999.99,
-		"status": true,
-		"stock": 30,
-		"category": "Computadoras",
-		"thumbnails": [
-			"laptop_front.jpg",
-			"laptop_side.jpg"
-		],
-		"id": 7
-	},
-	{
-		"title": "Nuevo Producto",
-		"description": "Descripción del producto",
-		"code": "ABC123",
-		"price": 999.99,
-		"stock": 15,
-		"category": "Electrónicos",
-		"thumbnails": [
-			"ruta/imagen1.jpg",
-			"ruta/imagen2.jpg"
-		],
-		"id": 8
-	}
+  {
+    "title": "Auriculares Inalámbricos",
+    "description": "Auriculares Bluetooth con cancelación de ruido",
+    "code": "54321",
+    "price": 129.99,
+    "status": true,
+    "stock": 50,
+    "category": "Audio",
+    "thumbnails": ["auriculares.jpg"],
+    "id": 5
+  },
+  {
+    "title": "Smartphone",
+    "description": "Teléfono inteligente de última generación",
+    "code": "98765",
+    "price": 599.99,
+    "status": true,
+    "stock": 100,
+    "category": "Electrónica",
+    "thumbnails": ["smartphone_front.jpg", "smartphone_back.jpg"],
+    "id": 6
+  },
+  {
+    "title": "Laptop",
+    "description": "Laptop ultradelgada con pantalla táctil",
+    "code": "24680",
+    "price": 999.99,
+    "status": true,
+    "stock": 30,
+    "category": "Computadoras",
+    "thumbnails": ["laptop_front.jpg", "laptop_side.jpg"],
+    "id": 7
+  },
+  {
+    "title": "Nuevo Producto",
+    "description": "Descripción del producto",
+    "code": "ABC123",
+    "price": 999.99,
+    "stock": 15,
+    "category": "Electrónicos",
+    "thumbnails": ["ruta/imagen1.jpg", "ruta/imagen2.jpg"],
+    "id": 8
+  }
 ]
