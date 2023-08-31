@@ -1,29 +1,56 @@
 [
 	{
-		"title": "Teclado",
-		"description": "Mecanico",
-		"price": 250,
-		"thumbnail": "img",
-		"code": 53425,
-		"stock": 20,
-		"id": 1
+		"title": "Auriculares Inalámbricos",
+		"description": "Auriculares Bluetooth con cancelación de ruido",
+		"code": "54321",
+		"price": 129.99,
+		"status": true,
+		"stock": 50,
+		"category": "Audio",
+		"thumbnails": [
+			"auriculares.jpg"
+		],
+		"id": 5
 	},
 	{
-		"title": "Mouse",
-		"description": "Óptico",
-		"price": 150,
-		"thumbnail": "img",
-		"code": 12345,
+		"title": "Smartphone",
+		"description": "Teléfono inteligente de última generación",
+		"code": "98765",
+		"price": 599.99,
+		"status": true,
+		"stock": 100,
+		"category": "Electrónica",
+		"thumbnails": [
+			"smartphone_front.jpg",
+			"smartphone_back.jpg"
+		],
+		"id": 6
+	},
+	{
+		"title": "Laptop",
+		"description": "Laptop ultradelgada con pantalla táctil",
+		"code": "24680",
+		"price": 999.99,
+		"status": true,
+		"stock": 30,
+		"category": "Computadoras",
+		"thumbnails": [
+			"laptop_front.jpg",
+			"laptop_side.jpg"
+		],
+		"id": 7
+	},
+	{
+		"title": "Nuevo Producto",
+		"description": "Descripción del producto",
+		"code": "ABC123",
+		"price": 999.99,
 		"stock": 15,
-		"id": 2
-	},
-	{
-		"title": "Monitor",
-		"description": "Full HD",
-		"price": 1000,
-		"thumbnail": "img",
-		"code": 67890,
-		"stock": 5,
-		"id": 3
+		"category": "Electrónicos",
+		"thumbnails": [
+			"ruta/imagen1.jpg",
+			"ruta/imagen2.jpg"
+		],
+		"id": 8
 	}
 ]
