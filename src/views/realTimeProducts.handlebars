@@ -1,0 +1,25 @@
+    <h1>Productos en Tiempo Real</h1>
+    <a href="/">Home Page</a>
+    <ul id="productList">
+        {{#each productos}}
+            <li>{{this.title}} - {{this.price}}</li>
+        {{/each}}
+    </ul>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        // Conecta al servidor WebSocket
+        const socket = io();
+
+        // Escucha el evento 'updateProducts' y actualiza la lista de productos
+        socket.on('updateProducts', (productos) => {
+            const productList = document.getElementById('productList');
+            productList.innerHTML = ''; // Borra la lista actual
+
+            productos.forEach((product) => {
+                const li = document.createElement('li');
+                li.textContent = `${product.title} - ${product.price}`;
+                productList.appendChild(li);
+            });
+        });
+    </script>

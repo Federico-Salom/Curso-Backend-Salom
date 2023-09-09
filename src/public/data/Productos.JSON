@@ -1,0 +1,108 @@
+[
+	{
+		"title": "Auriculares Inalámbricos",
+		"description": "Auriculares Bluetooth con cancelación de ruido",
+		"code": "54321",
+		"price": 129.99,
+		"status": true,
+		"stock": 50,
+		"category": "Audio",
+		"thumbnails": [
+			"auriculares.jpg"
+		],
+		"id": 5
+	},
+	{
+		"title": "Smartphone",
+		"description": "Teléfono inteligente de última generación",
+		"code": "98765",
+		"price": 599.99,
+		"status": true,
+		"stock": 100,
+		"category": "Electrónica",
+		"thumbnails": [
+			"smartphone_front.jpg",
+			"smartphone_back.jpg"
+		],
+		"id": 6
+	},
+	{
+		"title": "Laptop",
+		"description": "Laptop ultradelgada con pantalla táctil",
+		"code": "24680",
+		"price": 999.99,
+		"status": true,
+		"stock": 30,
+		"category": "Computadoras",
+		"thumbnails": [
+			"laptop_front.jpg",
+			"laptop_side.jpg"
+		],
+		"id": 7
+	},
+	{
+		"title": "Monitor LED Full HD 24 pulgadas",
+		"description": "Monitor LED de alta definición con pantalla de 24 pulgadas",
+		"code": "M-001",
+		"price": 149.99,
+		"status": true,
+		"stock": 30,
+		"category": "Monitores",
+		"thumbnails": [
+			"monitor_1.jpg"
+		],
+		"id": 9
+	},
+	{
+		"title": "Monitor Curvo 27 pulgadas 4K",
+		"description": "Monitor curvo de 27 pulgadas con resolución 4K para una experiencia de visualización inmersiva",
+		"code": "M-002",
+		"price": 349.99,
+		"status": true,
+		"stock": 20,
+		"category": "Monitores",
+		"thumbnails": [
+			"monitor_2.jpg"
+		],
+		"id": 10
+	},
+	{
+		"title": "Monitor Gaming 32 pulgadas QHD 144Hz",
+		"description": "Monitor gaming de 32 pulgadas con resolución QHD y alta frecuencia de actualización de 144Hz para una jugabilidad fluida",
+		"code": "M-003",
+		"price": 429.99,
+		"status": true,
+		"stock": 15,
+		"category": "Monitores",
+		"thumbnails": [
+			"monitor_3.jpg"
+		],
+		"id": 11
+	},
+	{
+		"title": "Monitor 4K de 32 pulgadas",
+		"description": "Monitor de alta resolución con pantalla de 32 pulgadas y calidad 4K",
+		"code": "M-004",
+		"price": 379.99,
+		"status": true,
+		"stock": 25,
+		"category": "Monitores",
+		"thumbnails": [
+			"monitor_4k.jpg"
+		],
+		"id": 12
+	},
+	{
+		"title": "Monitor Ultrawide de 34 pulgadas",
+		"description": "Monitor panorámico ultrawide de 34 pulgadas para una experiencia de visualización expansiva",
+		"code": "M-005",
+		"price": 499.99,
+		"status": true,
+		"stock": 18,
+		"category": "Monitores",
+		"thumbnails": [
+			"monitor_ultrawide.jpg"
+		],
+		"id": 13
+	}
+]
