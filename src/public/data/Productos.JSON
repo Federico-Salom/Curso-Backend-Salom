@@ -27,20 +27,6 @@
 		"id": 6
 	},
 	{
-		"title": "Laptop",
-		"description": "Laptop ultradelgada con pantalla táctil",
-		"code": "24680",
-		"price": 999.99,
-		"status": true,
-		"stock": 30,
-		"category": "Computadoras",
-		"thumbnails": [
-			"laptop_front.jpg",
-			"laptop_side.jpg"
-		],
-		"id": 7
-	},
-	{
 		"title": "Monitor LED Full HD 24 pulgadas",
 		"description": "Monitor LED de alta definición con pantalla de 24 pulgadas",
 		"code": "M-001",
